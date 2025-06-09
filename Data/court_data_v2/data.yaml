@@ -1,0 +1,16 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+kpt_shape: [12, 3]
+flip_idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+
+nc: 1
+names: ['courts']
+
+roboflow:
+  workspace: aipickleballref
+  project: court-detection-bxo2j
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/aipickleballref/court-detection-bxo2j/dataset/2
