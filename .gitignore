@@ -1,4 +1,6 @@
 config.json
-Ai-pickleball-referee-3/
 .venv/
-./videos
+videos/
+Data/court_data/
+Data/court_data_v2/
+Data/court_data_v3/
